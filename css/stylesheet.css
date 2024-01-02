@@ -1,0 +1,436 @@
+* {
+    box-sizing: border-box;
+    color: #32325F;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+html{
+    scroll-behavior: smooth;
+}
+
+body{ 
+    max-width: 1200px;
+    margin:0 auto; /*center the content*/
+    font-family: 'Josefin Sans', sans-serif;
+   
+    
+}
+
+#logo{
+  width: 60px;
+  margin:0 auto;
+  display: block;
+  float: left;
+}
+
+nav{
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+  list-style-position: outside;
+}
+
+nav ul li a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0px auto;
+  font-weight: 600;
+
+}
+
+ul li{
+  display: inline;
+}
+
+.menu_items{
+  padding: 10px 30px;
+}
+
+.social_icon1, .social_icon2 a{
+  padding: 10px 10px;
+}
+
+.social_icon1 a img{
+  width: 24px;
+  margin:0 auto;
+  padding: 0;
+  display: inline;
+}
+
+.social_icon2 a img{
+  width: 17px;
+  margin:0 auto;
+  padding: 0;
+  display: inline;
+}
+
+.menu_items a.active{
+  border-bottom: 3px solid #ADADFF;
+  font-weight: 900;
+}
+
+.menu_items a:hover{
+  color:#6161bc;
+}
+
+.home_banner {
+  width: 100%;
+}
+
+#about_img{
+  width:520px;
+}
+
+.about_text{
+  padding:50px;
+  text-align: center;
+  background-color: #efebff;
+  border-radius: 20px;
+}
+
+.about_text h1{
+  font-size: 45px;
+  font-family: 'Cardo', serif;
+  margin-top: 0;
+}
+
+.about_text p{
+  font-size: 18px;
+  line-height: 1.3;
+  margin-bottom: 50px;
+}
+
+
+.about_btn a{
+  background-color: #ADADFF;
+  padding: 15px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.about_btn a:hover{
+  background-color: #32325F;
+  color:#ffffff;
+}
+
+.breathing_space{
+  padding:20px;
+}
+
+.breathing_space1{
+  padding:50px;
+}
+
+.breathing_space2{
+  padding:50px;
+}
+
+.breathing_space3{
+  padding: 10px;
+}
+
+.skill_set img{
+  width: 100px;
+}
+
+.skill_set h3{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.row_header h1{
+  font-size: 45px;
+  font-family: 'Cardo', serif;
+  text-align: center;
+}
+
+.work_title{
+  font-size: 20px;
+  text-align: center;
+  display: block;
+}
+
+.work_text img{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.work_text a{
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+
+.work_btn{
+  margin-top: 40px;
+    text-align: center;
+}
+
+.work_btn a{
+  background-color: #ADADFF;
+  padding: 15px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.work_btn a:hover{
+  background-color: #32325F;
+  color:#ffffff;
+}
+
+
+.contact_section{
+  /*background-image: url(../images/map_bg.svg);
+  background-size: cover;*/
+  padding: 10px 40px 20px 40px;
+  background-color: #efebff;
+  border-radius: 20px;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 15px 15px;
+  margin: 20px 0 40px;
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid #32325F;
+  font-family: 'Josefin Sans', sans-serif;
+  /* border-radius: 10px; */
+  border-right: none;
+  background: #adadff24;
+}
+
+textarea{
+  width: 100%;
+  padding: 15px 15px;
+  margin: 20px 0;
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid #32325F;
+  font-family: 'Josefin Sans', sans-serif;
+  /* border-radius: 10px; */
+  border-right: none;
+  background: #adadff24;
+}
+
+label{
+  font-size: 18px;
+}
+
+
+input[type=submit]{
+  background-color: #ADADFF;
+  padding: 15px 25px;
+  border-radius: 50px;
+  width:150px;
+  border: none;
+  margin-top: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+
+.contact_box{
+  background-color: #ffffffd4;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+.contact_box img{
+  width: 40px;
+}
+
+.contact_box h3, .contact_box a {
+  text-align: center;
+  display: block;
+}
+
+.contact_box h3{
+  margin: 20px auto 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.map img{
+  width:100%;
+}
+
+
+footer{
+  text-align: center;
+}
+
+footer ul{
+  padding:0;
+}
+
+
+
+
+
+/* Work Inner page starts */
+
+.portfolio_banner{
+  width: 100%;
+}
+
+.portfolio_header h1{
+  font-size: 30px;
+  font-family: 'Cardo', serif;
+  text-align: center;
+}
+
+.portfolio_header p{
+  text-align: center;
+}
+
+.chart_img{
+  width: 100%;
+}
+
+.graph_detail{
+  margin-top: 20px;
+}
+
+.result_para{
+  text-align: center;
+  line-height: 1.3;
+}
+
+.empathy_center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.prblm_text{
+  padding: 50px;
+  text-align: center;
+  background: url(../images/dozio_portfolio/bg.png);
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.prblm_text h3{
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.persona_center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+
+/* Work Inner page ends */
+
+
+
+
+
+
+
+
+
+
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+
+  @media only screen and (max-width:700px){
+
+    [class*="col-"]{
+     width:100%;
+    }
+
+    header {
+      height: 170px;
+  }
+
+    nav{
+      text-align: center;
+    }
+
+    nav ul{
+      list-style-type: none;
+    text-align: center;
+    padding: 0;
+    }
+ 
+    .menu_items {
+     padding: 10px 10px;
+    }
+
+    .menu_items a.active{
+      border-bottom: none;
+    }
+    
+
+    nav li{
+      display: block;
+      padding: 5px;
+      margin-bottom: 5px;
+      width: 100%;
+  }
+  
+  nav li a{
+      font-size: 16px;
+      padding: 10px;
+  }
+  
+    nav ul li a{
+     font-size: 14px;
+    }
+
+    #logo{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+    }
+
+
+    .breathing_space, .breathing_space1, .breathing_space3{
+      padding: 0px;
+    }
+
+    .about_text, .contact_section, .prblm_text{
+      border-radius: 0;
+    }
+ 
+ 
+   }
