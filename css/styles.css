@@ -1,0 +1,964 @@
+/* Header css starts here */
+
+header{
+  background-color: #ffffff;
+  padding: 20px 0px;
+  z-index: 9999;
+}
+
+.sticky {
+ display: block;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + main {
+  padding-top: 80px;
+}
+
+.menu_content {
+  float: right;
+  margin-top: 6px;
+}
+
+.logo_bb img{
+width: 15%;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.menu_content a {
+  color: #161B20;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.icon{
+  color: #161B20;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: #161B20;
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+.topnav a.active {
+  color: #16AB88;
+  font-weight: 700;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav a{
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Header css ends here */
+
+
+/* Home page css starts here */
+
+h1, h2, h4{
+  font-family: "Urbanist", sans-serif;
+}
+
+body p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; /*regular is 400*/
+}
+
+.delivery_img img{
+  border-radius: 30px;
+  width: 80%;
+}
+
+.feature_section{
+  padding : 100px 0;
+}
+
+.feature_title{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /*semi bold is 600, bold is 700*/
+  font-style: normal;
+  font-size: 50px;
+}
+
+.feature_icon{
+  text-align: center;
+}
+
+.feature_icon{
+  color: #666666;
+  font-weight: 500;
+}
+
+#sale_banner{
+  background-image: url('../images/home_last.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  padding : 100px 0;
+}
+
+.sale_title{
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700; /*regular is 400*/
+  color: #212529;
+  font-size: 35px;
+  padding: 10px 90px 0px 0px;
+}
+
+.sale_hr{
+  width: 10%;
+  opacity: 100%;
+  border-top: 3px solid #15ab88;
+}
+
+.default_button{
+  background-color: #16AB88;
+  color: white;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 50px;
+  border: 0px;
+  border-color: #16AB88;
+  width: 200px;
+  height: 50px;
+}
+
+.default_button:hover{
+  border-width: 4px;
+  outline-style: solid;
+  outline-color: #16AB88;
+  color: #16AB88;
+  background-color: transparent;
+  transition: 0.4s;
+}
+
+.download_btn1{
+  width: 162px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.download_btn2{
+  width: 170px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.testimonial_content{
+  padding:100px 0;
+}
+
+.home_content{
+  padding: 100px 0px;
+}
+
+/* swiper carosuel css */
+
+.testimonial {
+  position: relative;
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.testimonial .image {
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonial .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.slide p {
+  text-align: center;
+  padding: 0 160px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+
+.slide .quote-icon {
+  font-size: 30px;
+  color: #15ab88;
+}
+
+.slide .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details .name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.details .job {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* swiper button css */
+
+.nav-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translateY(30px);
+  background-color: #15ab88 !important;
+  padding: 30px !important;
+  transition: 0.2s;
+}
+
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-btn::after,
+.nav-btn::before {
+  font-size: 16px !important;
+  color: #fff;
+}
+
+.swiper-pagination-bullet {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #15ab88 !important;
+}
+
+/* Home Page css ends here */
+
+/*About Us Page starts here*/
+
+.hero_banner{
+  background-image: url('../images/bg_short.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.hero_title{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /*semi bold is 600, bold is 700*/
+  font-style: normal;
+  text-align: center;
+  font-size: 60px;
+}
+
+.hero_title2{
+  font-weight: 700; /*semi bold is 600, bold is 700*/
+  color: #16AB88;
+}
+
+p{
+  font-size: 16px;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.hero_body_copy {
+  font-weight: 400; /*regular is 400*/
+  line-height: 25px;
+  letter-spacing:normal;
+  color: #161B20;
+  text-align: center;
+  padding: 10px 100px 10px 100px;
+}
+
+.full-bleed-img{
+  width: 100%;
+}
+
+.h2_title{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /*semi bold is 600, bold is 700*/
+  font-style: normal;
+  text-align: center;
+  font-size: 50px;
+}
+
+.h2_title2{
+  font-weight: 700; /*semi bold is 600, bold is 700*/
+  color: #16AB88;
+}
+
+.body_copy {
+  font-weight: 400; /*regular is 400*/
+  color: #666666;
+  text-align: center;
+  padding: 10px 100px 50px 100px;
+  line-height: 25px;
+  letter-spacing:normal;
+}
+
+.mission_body_copy {
+  font-weight: 400; /*regular is 400*/
+  color: #666666;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing:normal;
+  padding: 10px 60px 0px 60px;
+}
+
+.h4_title{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /*semi bold is 600, bold is 700*/
+  font-style: normal;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.designation_copy {
+  font-weight: 400; /*regular is 400*/
+  color: #666666;
+  text-align: center;
+  padding-top: 2px;
+}
+
+.team-imgs{
+  width: 100%;
+  padding: 0px;
+}
+
+.vision{
+  background-color: #D2EFE1;
+}
+
+.vision_title{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /*semi bold is 600, bold is 700*/
+  font-style: normal;
+  font-size: 50px;
+  text-align: left;
+  padding-top: 100px;
+  padding-right: 120px;
+}
+
+.vision_title2{
+  font-weight: 700; /*semi bold is 600, bold is 700*/
+  color: #16AB88;
+}
+
+.body_copy2 {
+  font-weight: 400; /*regular is 400*/
+  line-height: 25px;
+  letter-spacing:normal;
+  color: #666666;
+  padding: 10px 90px 0px 0px;
+}
+
+.vision-img{
+  width: 500px;
+  margin-left: 100px;
+}
+
+.mission{
+  padding:100px 0;
+}
+
+.mission-img{
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*About Us Page ends here*/
+
+
+
+/*Contact page starts here*/
+
+.contact-form{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+label{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /*semi bold is 600, bold is 700*/
+  font-style: normal;
+  font-size: 18px;
+}
+
+input[type=text]{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 0px 10px 20px;
+  font-size: 16px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #16AB88;
+  border-width: 0.5px;
+  color: #666666;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; /*regular is 400*/
+}
+
+textarea[type=message]{
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 0px 10px 20px;
+  font-size: 16px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #16AB88;
+  border-width: 0.5px;
+  color: #666666;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; /*regular is 400*/
+}
+
+.contact-form-img{
+  margin-top: 80px;
+  width: 90%;
+  margin-left: 50px;
+}
+
+/*Contact page ends here*/
+
+
+/*Download page starts here*/
+
+.download_hero_banner{
+  background-image: url('../images/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  padding:50px 0px;
+}
+
+
+.download_title{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /*semi bold is 600, bold is 700*/
+  font-style: normal;
+  font-size: 60px;
+}
+
+.download_title2{
+  font-weight: 700; /*semi bold is 600, bold is 700*/
+  color: #16AB88;
+}
+
+.body_copy3 {
+  font-weight: 400; /*regular is 400*/
+  line-height: 25px;
+  letter-spacing:normal;
+  color: #161B20;
+  padding: 10px 90px 20px 0px;
+}
+
+.download_button_img{
+  margin-left: 100px;
+  width: 150px;
+}
+
+.download_button_img2{
+  width: 170px;
+  height: 50px;
+}
+
+.download_app_img2{
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  margin-left: 50px;
+}
+
+/*Download page ends here*/
+
+
+/* Footer css starts here */
+
+footer{
+  background-color: #161B20;
+}
+
+.vl {
+  border-left: 1px solid #ffffff;
+  height: 133px;
+  position: absolute;
+}
+
+.footer_links{
+  padding: 10px 0px;
+}
+
+.footer_icon{
+  margin: auto 0 !important;
+}
+
+.footer_icon a{
+  margin-right: 10px;
+}
+
+li {
+  list-style-type: none !important;
+}
+
+.footer_links a{
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer_links:hover{
+  color: white;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.footer_content{
+  padding:50px 0px;
+}
+
+.copyright_bg{
+  background-color: #F6F1F1;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.copyright_bg p{
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/* Footer css ends here */
+
+
+/* Responsive CSS Starts Here */
+
+@media screen and (max-width: 768px) { /*for tablet devices*/
+
+ /* Header css starts here */
+
+  .topnav span a {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .menu_content {
+    float: left;
+    margin-top: 30px;
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .sticky {
+    display: block;
+    position: fixed;
+    top: 0;
+  }
+
+  .logo_bb img{
+  width: 40%;
+  }
+
+  /* Header css ends here */
+
+  /* Home page css starts here */
+
+  .slide p {
+    padding: 0 20px;
+  }
+
+  .nav-btn {
+    display: none !important;
+  }
+
+  .delivery_img img{
+    width: 100%;
+  }
+
+  .feature_title{
+    text-align: center;
+  }
+
+  #sale_banner{
+    display: none;
+  }
+
+  .download_section{
+    padding-bottom: 100px;
+  }
+
+  .body_copy3 {
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing:normal;
+    color: #161B20;
+    text-align: center;
+    padding: 10px 30px 0px 30px;
+  }
+
+  .default_button{
+    width: 50%;
+  }
+
+  .download_title{
+    text-align: center;
+  }
+
+  #home_banner{
+    display: none;
+  }
+
+  .h2_title{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* Home page css ends here */
+
+
+  /* Download page css starts here */
+
+  .download_app_img2{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  /* Download page css ends here */
+
+
+  /*About Page*/
+
+  .vision-img{
+    width: 500px;
+    margin-left: 10px;
+  }
+
+  .vision_title{
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+  }
+
+  .hero_body_copy {
+  font-weight: 400;
+  color: #161B20;
+  text-align: center;
+  padding: 10px 20px;
+  line-height: 25px;
+  letter-spacing:normal;
+  }
+
+  .body_copy {
+    font-weight: 400; /*regular is 400*/
+    color: #666666;
+    text-align: center;
+    padding: 10px 50px 50px 50px;
+    line-height: 25px;
+    letter-spacing:normal;
+  }
+
+  .body_copy2 {
+    font-weight: 400; /*regular is 400*/
+    color: #666666;
+    text-align: center;
+    padding: 10px 30px 50px 30px;
+    line-height: 25px;
+    letter-spacing:normal;
+  }
+
+  .vision-img{
+    display: none;
+  }
+
+  /*Ends about page*/
+
+
+  /*Contact Page*/
+
+  .contact-form{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .contact-form-img{
+    margin-top: 0px;
+    width: 90%;
+    margin-left: 0px;
+  }
+  /*End of contact page*/
+
+
+  /* Footer css starts here */
+
+  .vl{
+    border-top: 1px solid #ffffff;
+    border-left: none;
+    position: relative;
+    width: 100%;
+    height: 0;
+    margin: 20px 0px;
+  }
+
+  .footer_icon{
+    text-align: center;
+  }
+
+  .footer_links{
+    text-align: center;
+  }
+  /* Footer css ends here */     
+
+}
+
+
+@media screen and (max-width: 480px) { /*for mobile devices*/
+
+  /* Header css starts here */
+
+  .topnav span a {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .menu_content {
+    float: left;
+    margin-top: 30px;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .sticky {
+    display: block;
+    position: fixed;
+    top: 0;
+  }
+
+  .logo_bb img{
+    width: 40%;
+  }
+
+  /* Header css ends here */
+
+
+  /* Home page css starts here */
+
+  .slide p {
+    padding: 0 20px;
+  }
+
+  .nav-btn {
+    display: none !important;
+  }
+
+  .delivery_img img{
+    width: 100%;
+  }
+
+  .feature_title{
+    text-align: center;
+  }
+
+  #sale_banner{
+    display: none;
+  }
+
+  .download_section{
+    padding-bottom: 100px;
+  }
+
+  .body_copy3 {
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing:normal;
+    color: #161B20;
+    text-align: center;
+    padding: 10px 30px 0px 30px;
+  }
+
+  .default_button{
+    width: 50%;
+  }
+
+  .download_title{
+    text-align: center;
+  }
+
+  #home_banner{
+    display: none;
+  }
+
+  .h2_title{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* Home page css ends here */
+
+
+  /* Download page css starts here */
+
+  .download_app_img2{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  /* Download page css ends here */
+
+
+  /*About Page*/
+
+  .vision-img{
+    width: 500px;
+    margin-left: 10px;
+  }
+
+  .vision_title{
+    padding: 50px 50px 0px 50px;
+  }
+
+  .hero_body_copy {
+    font-weight: 400;
+    color: #161B20;
+    text-align: center;
+    padding: 10px 20px;
+    line-height: 25px;
+    letter-spacing:normal;
+  }
+
+  .body_copy {
+    font-weight: 400; /*regular is 400*/
+    color: #666666;
+    text-align: center;
+    padding: 10px 50px 50px 50px;
+    line-height: 25px;
+    letter-spacing:normal;
+  }
+
+  .body_copy2 {
+    font-weight: 400; /*regular is 400*/
+    color: #666666;
+    text-align: center;
+    padding: 10px 30px 50px 30px;
+    line-height: 25px;
+    letter-spacing:normal;
+  }
+
+  .vision-img{
+    display: none;
+  }
+
+  /*Ends about page*/
+
+
+  /*Contact Page*/
+
+  .contact-form{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .contact-form-img{
+    margin-top: 0px;
+    width: 90%;
+    margin-left: 0px;
+  }
+
+  /*End of contact page*/
+
+
+  /* Footer css starts here */
+
+  .vl{
+    border-top: 1px solid #ffffff;
+    border-left: none;
+    position: relative;
+    width: 100%;
+    height: 0;
+    margin: 20px 0px;
+  }
+
+  .footer_icon{
+    text-align: center;
+  }
+
+  .footer_links{
+    text-align: center;
+  }
+  /* Footer css ends here */  
+
+}

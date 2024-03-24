@@ -1,97 +1,237 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>PK | Home</title>
-        <meta name="keywords" content="pooja kotian, pooja, designer, graphic designer, ui/ux, web designer, mobile app designer">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <div class="row">
-                <div class="col-2">
+<head>
+    <title>Pooja Kotian</title>
+    <meta name="keywords"
+        content="pooja kotian, pooja, designer, graphic designer, ui/ux, web designer, mobile app designer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--calling bootstrap css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--calling font awesome css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--calling bootstrap javascript-->
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+
+</head>
+
+<body>
+    <header class="sticky"> <!--header section starts here-->
+        <nav> <!--navigation-->
+            <div class="container">
+                <div class="topnav" id="myTopnav">
                     <a href="index.html"><img id="logo" src="images/logo.svg" alt="Pooja Kotian Logo"></a>
-                </div>
-                <div class="col-10">
-                    <nav>
-                        <ul>
-                            <li class="menu_items"><a href="index.html" class="active">Home</a></li>
-                            <!-- <li class="menu_items"><a href="about.html">About</a></li> -->
-                            <li class="menu_items"><a href="dozio_cs.html">Work</a></li>
-                            <li class="menu_items"><a href="#contact_part">Contact</a></li>
-                            <li class="social_icon1"><a href="https://www.behance.net/poojakotian" target="_blank"><img src="images/behance_logo.svg" alt="behance logo"></a></li>
-                            <li class="social_icon2"><a href="https://www.linkedin.com/in/pooja-kotian-866a38161/" target="_blank"><img src="images/linkedin_logo.svg" alt="linkedin logo"></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
+                    <span class="menu_content">
+                        <a href="index.html" class="active">Home</a> <!-- nested elements under nav -->
+                        <a href="#about">About</a>
+                        <a href="#work">Work</a>
+                        <a href="#contact">Contact</a>
+                    </span>
 
-            <!-- <div class="breathing_space3"></div> -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
 
-            <div class="row">
-                <div class="col-12">
-                  <img src="images/banner_img.svg" class="home_banner" alt="banner image">
                 </div>
             </div>
+        </nav>
+    </header>
 
-            <div class="breathing_space"></div>
-
-            <div class="row row_header">
-                <h1> My Skills</h1>
+    <main>
+        <section id="background-video-section">
+            <video id="background-video" autoplay loop muted>
+                <source src="images/hero_bg.mp4" type="video/mp4">
+            </video>
+            <div class="container">
+                <div class="row hero_section">
+                    <div class="col-xl-8 col-md-8 col-sm-12 col-xs-12 footer_icon"> <!--columns under row-->
+                        <!-- <img src="images/home_banner.png" width="1300" alt="grocery carosuel"> -->
+                        <h1 class="hero_title">Pooja Kotian </h1> <!--title in h1-->
+                        <h3 class="designation">
+                            UI/UX Designer & Product Designer
+                        </h3>
+                        <!-- <p>
+                                Passionate about crafting exceptional modern web & app designs with a focus on engaging user experiences & staying ahead of trends.
+                                <br>Ready to elevate your team's digital presence.
+                            </p> -->
+                        <a href="contact.html" class="cta">
+                            <span>Let's Collaborate</span>
+                            <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12"> <!--columns under row-->
+                        <img id="home_banner" src="images/my_pic.svg" width="380px" alt="grocery carosuel">
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-1"></div>
-                <div class="col-3 skill_set">
-                    <img src="images/ui-ux.svg" alt="ui/ux designing icon" class="center">
-                    <h3>UI/UX Designing</h3>
-                </div>
-                <div class="col-4 skill_set">
-                    <img src="images/social.svg" alt="social media management icon" class="center">
-                    <h3>Social Media Management</h3>
-                </div>
-                <div class="col-3 skill_set">
-                    <img src="images/branding.svg" alt="branding icon" class="center">
-                    <h3>Branding</h3>
-                </div>
-                <div class="col-1"></div>
+        </section>
+
+        <div class="breathing_space"></div>
+
+        <div class="row row_header">
+            <h1> My Skills</h1>
+        </div>
+        <div class="row">
+            <div class="col-xl-1 col-md-12"></div>
+            <div class="col-xl-3 col-md-12 skill_set">
+                <img src="images/ui-ux.svg" alt="ui/ux designing icon" class="center">
+                <h4>UI/UX Designing</h4>
             </div>
+            <div class="col-xl-4 col-md-12 skill_set">
+                <img src="images/social.svg" alt="social media management icon" class="center">
+                <h4>Social Media Management</h4>
+            </div>
+            <div class="col-xl-3 col-md-12 skill_set">
+                <img src="images/branding.svg" alt="branding icon" class="center">
+                <h4>Branding</h4>
+            </div>
+            <div class="col-xl-1 col-md-12"></div>
+        </div>
 
-            <div class="breathing_space"></div>
+        <div class="breathing_space" id="about"></div>
 
-            <div class="row about_text">
+        <div class="row about_text" >
+            <div class="container">
                 <!-- <h1>Hello,</h1> -->
-                <p>I am highly enthusiastic about Modern Web and
-                    Application Design with an aim of designing amazing User Interface and User Experience,
-                    I constantly upgrade my creative skills and vision for great UI/UX designs and make sure that
-                    the user will have a memorable experience. I always believe that design is a way to provide a
-                    solution-based approach to solving problems, and it helps you redefine problems and
-                    understand it in a better way.</p>
-                    <div class="about_btn"><a href="#contact_part">Let's Connect</a></div>
-            </div>
+                <h3>I specialize in creating user-centered designs that are intuitive, functional and visually
+                    appealing.
+                    Passionate about crafting exceptional modern web & app designs with a focus on engaging user
+                    experiences & staying ahead of trends.
+                </h3>
 
-            <div class="breathing_space"></div>
-
-            <div class="row row_header">
-                <h1>My Work</h1>
+                <a href="contact.html" class="cta">
+                    <span>Let's Collaborate</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
             </div>
+        </div>
+
+        <div class="breathing_space" id="work"></div>
+
+        <div class="row row_header">
+            <h1>My Work</h1>
+        </div>
+
+        <div class="container">
 
             <div class="row work_text">
-                <div class="col-6">
-                    <img src="images/Dozio.png" alt="portfolio for Dozio">
-                    <a href="dozio_cs.html" class="work_title">Dozio Mobile App Design</a>
+                <!-- <div class="col-6 hover01 column">
+                    <a href="dozio_cs.html" class="work_title"><figure><img src="images/Dozio.png" /></figure></a>
+                      <a href="dozio_cs.html" class="work_title">Dozio Mobile App Design</a>
+                  </div> -->
+                <div class="col-xl-1 col-md-12 work"></div>
+                <div class="col-xl-5 col-md-12 hover01 column">
+                    <div class="work">
+                        <a href="dozio_cs.html" class="work_title">
+                            <figure>
+                                <img src="images/Work/FMT.svg" alt="Avatar" class="image">
+                            </figure>
+                        </a>
+                        <a href="" class="work_mobile_title">
+                            <h3>Found My Teacher Web Design</h3><span class="view_project"> View Project </span>
+                        </a>
+                        <a href="dozio_cs.html" class="work_title">
+                            <div class="overlay">
+                                <h3>Found My Teacher</h3>
+                                <p>UI/UX Casestudy</p>
+                                <span class="view_project"> View Project </span>
+                            </div>
+                        </a>
+
+                    </div>
                 </div>
-                <div class="col-6">
-                    <img src="images/Nativemilk.png" alt="portfolio for nativemilk">
-                    <a href="" class="work_title">Native Milk Web Design</a>
+
+                <div class="col-xl-5 col-md-12 hover01 column">
+                    <div class="work">
+                        <a href="dozio_cs.html" class="work_title">
+                            <figure>
+                                <img src="images/Work/UBI.svg" alt="Avatar" class="image">
+                            </figure>
+                        </a>
+                        <a href="" class="work_mobile_title">
+                            <h3>Union Bank Of India Web Design</h3><span class="view_project"> View Project </span>
+                        </a>
+                        <a href="dozio_cs.html" class="work_title">
+                            <div class="overlay">
+                                <h3>Union Bank Of India</h3>
+                                <p>UI/UX Casestudy</p>
+                                <span class="view_project"> View Project </span>
+                            </div>
+                        </a>
+
+                    </div>
                 </div>
+
+                <div class="col-xl-1 col-md-12 work"></div>
+
+                <!-- <div class="col-4">
+                    <img src="images/Lokalgrub.png" alt="portfolio for lokalgrub">
+                    <a href="">Lokal Grub Web Design</a>
+                </div> -->
+            </div>
+            <div class="breathing_space"></div>
+            <div class="row work_text">
+                <!-- <div class="col-6 hover01 column">
+                    <a href="dozio_cs.html" class="work_title"><figure><img src="images/Dozio.png" /></figure></a>
+                      <a href="dozio_cs.html" class="work_title">Dozio Mobile App Design</a>
+                  </div> -->
+                <div class="col-xl-1 col-md-12 work"></div>
+                <div class="col-xl-5 col-md-12 hover01 column">
+                    <div class="work">
+                        <a href="dozio_cs.html" class="work_title">
+                            <figure>
+                                <img src="images/Work/Nativemilk.svg" alt="Avatar" class="image">
+                            </figure>
+                        </a>
+                        <a href="" class="work_mobile_title">
+                            <h3>Native Milk Web Design</h3><span class="view_project"> View Project </span>
+                        </a>
+                        <a href="dozio_cs.html" class="work_title">
+                            <div class="overlay">
+                                <h3>Native Milk</h3>
+                                <p>UI/UX Web Casestudy</p>
+                                <span class="view_project"> View Project </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-xl-5 col-md-12 hover01 column">
+                    <div class="work">
+                        <a href="dozio_cs.html" class="work_title">
+                            <figure>
+                                <img src="images/Work/Lokalgrub_phone.svg" alt="Avatar" class="image">
+                            </figure>
+                        </a>
+                        <a href="" class="work_mobile_title">
+                            <h3>Lokal Grub App Design</h3><span class="view_project"> View Project </span>
+                        </a>
+                        <a href="dozio_cs.html" class="work_title">
+                            <div class="overlay">
+                                <h3>Lokal Grub</h3>
+                                <p>UI/UX Mobile Casestudy</p>
+                                <span class="view_project"> View Project </span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-1 col-md-12 work"></div>
 
                 <!-- <div class="col-4">
                     <img src="images/Lokalgrub.png" alt="portfolio for lokalgrub">
@@ -99,69 +239,262 @@
                 </div> -->
             </div>
 
-            <div class="row">
-                <div class="work_btn"><a href="https://www.behance.net/poojakotian" target="_blank">See All My Work</a></div>
+
+            <div class="breathing_space"></div>
+
+            <div class="see_work_btn">
+                <a href="contact.html" class="cta">
+                    <span>See All My Work</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
             </div>
+        </div>
 
-            <div class="breathing_space2"></div>
+        <div class="breathing_space2"></div>
 
-            <div class="row contact_section row_header" id="contact_part">
-                    <h1>Lets Connect</h1>
-                <div class="contact_form col-6">
-                    <form action="action_page.php">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your name...">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="yourname12@email.com">
-                        <label for="comments">
-                            Message
-                        </label>
-                        <textarea id="comments" name="comments" rows="6" placeholder="Make me familiar to your brand"></textarea>
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
-                <div class="col-6">
-                    <div class="row contact_info">
-                        <div class="col-1"></div>
-                        <div class="col-5 contact_box">
-                            <img src="images/mail_icon.svg" alt="email icon" class="center">
-                            <h3>Email me at:</h3>
-                            <a href="mailto:kotianp.412@gmail.com">kotianp.412@gmail.com</a>
+
+
+        <div id="testim" class="testim">
+            <div class="container">
+                <div class="row testim-cover">
+                    <div class="breathing_space"></div>
+                    <h1> What My Clients Say About Me</h1>
+                    <div class="wrap">
+
+                        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                        <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                        <ul id="testim-dots" class="dots">
+                            <li class="dot active"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                        </ul>
+                        <div id="testim-content" class="cont">
+
+                            <div class="active">
+                                <!-- <div class="img"><img src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/kartik-aaryan-1045198-08-12-2017-06-34-11.jpg" alt=""></div> -->
+
+                                <p>"Pooja and I worked together for some projects at Bajaj Broking. I highly recommend
+                                    Pooja for her exceptional UI/UX design skills along with good understanding of
+                                    customer experience . During our project, She consistently
+                                    delivered high-quality designs that exceed expectations. Her collaborative approach
+                                    and strong work ethic make her a valuable asset to any team."</p>
+                                <h2><b>Sachin Singh</b> <br><i style="font-size: 18px;">Vice President (Bajaj
+                                        Finserve)</i> </h2>
+                            </div>
+
+                            <div>
+                                <!-- <div class="img"><img src="https://timesofindia.indiatimes.com/thumb/msid-75752690,width-800,height-600,resizemode-4/75752690.jpg" alt=""></div> -->
+                                <p>"Pooja is the go to person when it comes to designing anything new for the product or
+                                    website. She gets into details of the requirement, tries to understand the users of
+                                    the feature and then comes up with designs. This approach to designing is what makes
+                                    the products extremely easy to understand and use.
+                                    Apart from the professional approach to designing, she is very friendly and gets
+                                    along with everyone in the company. I wish her all the best for all
+                                    her endeavours."</p>
+                                <h2><b>Avani Dani</b> <br><i style="font-size: 18px;"> Co-Founder (CartGeek)</i></h2>
+                            </div>
+
+                            <div>
+                                <!-- <div class="img"><img src="https://p16.muscdn.com/img/musically-maliva-obj/1627333501517830~c5_720x720.jpeg" alt=""></div> -->
+                                <p>When it comes to designing I have seen Pooja evolving in extremely best way. Anything that’s drawn by you she can literally convert it into a digital design or interface.
+                                    She has perfect vision to convert your words into the design of your imagination and over above to all she is a perfect team player.</p>
+                                <h2><b>Vaibhavi Chiplunkar</b> <br><i style="font-size: 18px;">Business Development Professional (Oursoftech)</i> </h2>
+                            </div>
+
+
                         </div>
-                        <div class="col-1"></div>
-                        <div class="col-5 contact_box">
-                           <img src="images/phone_icon.svg" alt="phone icon" class="center">
-                            <h3>Give me a call at:</h3>
-                            <a href="tel:5485774173">+1 (548)-577-4173</a>
-                        </div>
-                    </div>
-                    <div class="map">
-                        <img src="images/map.svg" alt="map pinned at Waterloo, Ontario">
+
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="container">
+            <div class="row row_header">
+                <!-- <h1>Hello,</h1> -->
+                <h1> I've Worked With</h1>
+                <img class="client_img" src="images/Clients1.svg">
+                <img class="client_img_mobile" src="images/Clients1_Mobile.svg">
+            </div>
+        </div>
+
+    </main>
 
 
-            <div class="breathing_space3"></div>
+    <div class="breathing_space3"></div>
 
 
-            <footer>
+    <footer>
+        <div class="social_media" id="contact">
+            <div class="container">
+                <div class="row row_header">
+                    <!-- <h1>Hello,</h1> -->
+                    <h1> Connect with Me on</h1>
+                </div>
                 <div class="row">
-                    <ul>
-                        <li class="social_icon1"><a href="https://www.behance.net/poojakotian" target="_blank"><img src="images/behance_logo.svg" alt="behance logo"></a></li>
-                        <li class="social_icon2"><a href="https://www.linkedin.com/in/pooja-kotian-866a38161/" target="_blank"><img src="images/linkedin_logo.svg" alt="linkedin logo"></a></li>
-                        <li class="social_icon2"><a href="https://www.facebook.com/ui.pooja/" target="_blank"><img src="images/facebook_logo.svg" alt="facebook logo"></a></li>
-                    </ul>
-                    <p>
-                        Copyright © 2023 Pooja Kotian. All rights reserved.
-                    </p>
+                    <div class="col-xl-4"></div>
+
+                    <div class="col-xl-1 col-md-3 col-xs-3 social_icon1">
+                        <a href="https://www.behance.net/poojakotian" target="_blank"><img
+                                src="images/Social media icons/behance.svg" alt="behance logo"></a>
+                    </div>
+
+                    <div class="col-xl-1 col-md-3 col-xs-3 social_icon2">
+                        <a href="https://www.linkedin.com/in/pooja-kotian-866a38161/" target="_blank"><img
+                                src="images/Social media icons/linkedin.svg" alt="linkedin logo"></a>
+                    </div>
+
+                    <div class="col-xl-1 col-md-3 col-xs-3 social_icon2">
+                        <a href="https://www.facebook.com/ui.pooja/" target="_blank"><img
+                                src="images/Social media icons/facebook.svg" alt="facebook logo"></a>
+                    </div>
+
+                    <div class="col-xl-1 col-md-3 col-xs-3 social_icon2">
+                        <a href="https://dribbble.com/poojakotian" target="_blank"><img
+                                src="images/Social media icons/dribbble.svg" alt="facebook logo"></a>
+                    </div>
+                    <div class="col-xl-4"></div>
                 </div>
-            </footer>
+            </div>
+        </div>
+        <div class="row">
+            <p class="copy_footer">
+                Copyright © 2023 Pooja Kotian. All rights reserved.
+            </p>
+        </div>
+    </footer>
 
-            <div class="breathing_space3"></div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <script>
+        // vars
+        'use strict'
+        var testim = document.getElementById("testim"),
+            testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+            testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+            testimLeftArrow = document.getElementById("left-arrow"),
+            testimRightArrow = document.getElementById("right-arrow"),
+            testimSpeed = 4500,
+            currentSlide = 0,
+            currentActive = 0,
+            testimTimer,
+            touchStartPos,
+            touchEndPos,
+            touchPosDiff,
+            ignoreTouch = 30;
+        ;
+
+        window.onload = function () {
+
+            // Testim Script
+            function playSlide(slide) {
+                for (var k = 0; k < testimDots.length; k++) {
+                    testimContent[k].classList.remove("active");
+                    testimContent[k].classList.remove("inactive");
+                    testimDots[k].classList.remove("active");
+                }
+
+                if (slide < 0) {
+                    slide = currentSlide = testimContent.length - 1;
+                }
+
+                if (slide > testimContent.length - 1) {
+                    slide = currentSlide = 0;
+                }
+
+                if (currentActive != currentSlide) {
+                    testimContent[currentActive].classList.add("inactive");
+                }
+                testimContent[slide].classList.add("active");
+                testimDots[slide].classList.add("active");
+
+                currentActive = currentSlide;
+
+                clearTimeout(testimTimer);
+                testimTimer = setTimeout(function () {
+                    playSlide(currentSlide += 1);
+                }, testimSpeed)
+            }
+
+            testimLeftArrow.addEventListener("click", function () {
+                playSlide(currentSlide -= 1);
+            })
+
+            testimRightArrow.addEventListener("click", function () {
+                playSlide(currentSlide += 1);
+            })
+
+            for (var l = 0; l < testimDots.length; l++) {
+                testimDots[l].addEventListener("click", function () {
+                    playSlide(currentSlide = testimDots.indexOf(this));
+                })
+            }
+
+            playSlide(currentSlide);
+
+            // keyboard shortcuts
+            document.addEventListener("keyup", function (e) {
+                switch (e.keyCode) {
+                    case 37:
+                        testimLeftArrow.click();
+                        break;
+
+                    case 39:
+                        testimRightArrow.click();
+                        break;
+
+                    case 39:
+                        testimRightArrow.click();
+                        break;
+
+                    default:
+                        break;
+                }
+            })
+
+            testim.addEventListener("touchstart", function (e) {
+                touchStartPos = e.changedTouches[0].clientX;
+            })
+
+            testim.addEventListener("touchend", function (e) {
+                touchEndPos = e.changedTouches[0].clientX;
+
+                touchPosDiff = touchStartPos - touchEndPos;
+
+                console.log(touchPosDiff);
+                console.log(touchStartPos);
+                console.log(touchEndPos);
+
+
+                if (touchPosDiff > 0 + ignoreTouch) {
+                    testimLeftArrow.click();
+                } else if (touchPosDiff < 0 - ignoreTouch) {
+                    testimRightArrow.click();
+                } else {
+                    return;
+                }
+
+            })
+        }
+    </script>
 
 
 
 
-    </body>
+
+</body>
+
 </html>
