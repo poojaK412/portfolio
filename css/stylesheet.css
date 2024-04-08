@@ -91,6 +91,7 @@ header{
 
  /* Style for the section with the background video */
  #background-video-section {
+  background: url('../images/section_bg.jpg');
   position: relative;
   width: 100%;
   height: 550px; /* Adjust the height as needed */
@@ -104,7 +105,7 @@ header{
   left: 0;
   width: 100%;
   height: auto;
-  opacity: .3;
+  opacity: .6;
   z-index: -1; /* Put the video behind other content */
 }
 
@@ -206,7 +207,7 @@ h3, h4, h5{
 
 
 .social_media{
-  background: url('../images/still_bg_wave.png');
+  background: url('../images/section_bg.jpg');
   padding-bottom: 40px;
   /* margin-bottom: 10px; */
 }
@@ -242,7 +243,7 @@ h3, h4, h5{
 .about_text{
   padding:70px 50px;
   text-align: center;
-  background: url('../images/still_bg_wave.png');
+  background: url('../images/section_bg.jpg');
   background-size: cover;
 }
 
@@ -261,7 +262,7 @@ h3, h4, h5{
 /* swiper carosuel css */
 .testim {
   width: 100%;
-  background: url('../images/still_bg_wave.png');
+  background: url('../images/section_bg.jpg');
   /* position: absolute;
   top: 50%;
   -webkit-transform: translatey(-50%);
@@ -332,9 +333,9 @@ h3, h4, h5{
   cursor: pointer;
 }
 
-.testim .arrow:hover {
+/* .testim .arrow:hover {
   color: green;
-}
+} */
   
 
 /* .testim .arrow.left {
